@@ -1,0 +1,60 @@
+.footer{
+width:1366px;
+height:240px;
+
+  background: #215A6D;
+  font: 12pt Georgia;
+  color: #f2f2f2;
+  margin-bottom: -150px;
+  clear: both;
+}
+
+.tomottoWrap{
+  position: relative;
+  background: #3CA2A2;
+}
+
+.lookWrap{
+  position: relative; 
+  background-color: #678;
+  float: left;
+  width: 100%;
+}
+
+#look{
+  margin: auto;
+  width:700px;
+}
+
+.section{
+  overflow: hidden;
+  float: left;
+  display: inline;
+  width: 160px;
+  margin: 0 15px 15px 0;
+  font: 10pt verdana;
+  line-height: 1.6em;
+}
+
+.section h3{
+  font-weight: normal;
+  font: 12pt Georgia;
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+
+.section a{
+  display: block;
+  text-decoration:none;
+  color:#FFFFFF;
+}
+
+.legality{
+  width:1366px;
+  height:30px;
+  text-align: center;
+  clear: both;
+  font: 10pt verdana;
+  line-height: 2em;
+  background:#000;
+}

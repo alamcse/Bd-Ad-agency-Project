@@ -1,0 +1,171 @@
+*{
+margin=0;
+padding:0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background:url(images/bg.jpg) repeat;
+	font-family:arial;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+.main{
+	width:1366px;
+	margin:5px auto;
+	display:block;
+
+	  
+}
+.header{
+	width:1366px;
+	height:160px;
+
+	margin-bottom:10px;
+	
+	background:#FFFFFF;
+
+
+
+
+}
+.logo{
+	width:200px;
+	height:160px;
+	float:left;
+}
+.logo img{
+	height:160px;
+}
+.searcharea_log{
+	width:1166px;
+	height:160px;
+	float:left;
+
+	
+}
+
+.like{
+	width:866;
+	height:50px;
+	text-align:right;
+}
+.like  p{
+	font-size:16px;
+	margin-right:20px;
+	color:#000;
+	
+	
+	
+}
+.searcharea{
+	width:866px;
+	height:160px;
+}
+.search {
+	width: 600px;
+	height: 40px;
+	margin: 0px auto;
+	background: #444;
+	background: rgba(0,0,0,.2);
+	border-radius:  3px;
+	border: 1px solid #B0B5B8;
+}
+.search form{marign:20px auto}
+.search input {
+	width: 475px;
+	padding: 10px 5px;
+	float: left;
+	color: #fff;
+	border: 0;
+	background:transparent;
+	border-radius: 3px 0 0 3px;
+}
+
+.search input:focus {
+	outline: 0;
+	background: #1A1A1B ;
+}
+
+.search button {
+	position: relative;
+	float: right;
+	border: 0;
+	padding: 0;
+	cursor: pointer;
+	height: 40px;
+	width: 120px;
+	color: #fff;
+	background: transparent;
+	border-left: 1px solid #fff;
+	border-radius: 0 3px 3px 0;
+}   
+
+.search button:hover {
+	background: #fff;
+	color:#B0B5B8;
+}
+.search button:active {
+	box-shadow: 0px 0px 12px 0px rgba(225, 225, 225, 1);
+}
+
+.search button:focus {
+	outline: 0;
+}
+.log{
+		width:300px;
+		height:160px;
+		float:right;
+		margin-top:-177px;
+		padding:5px solid #EDEDED;
+		
+		
+
+}
+.registration{
+	width:300px;
+	height:80px;
+	background:#ddd;
+	border-bottom:2px solid #000;
+
+}
+.registration button {
+	float:right;
+	border: 0;
+	padding: 0;
+	cursor: pointer;
+	height: 30px;
+	width: 60px;
+	color: #fff;
+	background:#08381B;
+	margin-right:5px;
+	margin-top:20px;
+	border-radius: 0 3px 3px 0;
+}
+.post{
+	width:300px;
+	height:80px;
+	background:#EFEFEF;
+
+}
+.post button {
+	float:left;
+	border: 0;
+	padding: 0;
+	cursor: pointer;
+	height: 40px;
+	width: 120px;
+	color: #fff;
+	background:#123456;
+	margin-left:75px;
+	margin-top:20px;
+	border-radius: 0 3px 3px 0;
+}
+.menuarea{width:1366px;height:45px;background:#320E0F;z-index:1000;}
+.menu{width:1050px;height:45px;background:#320E0F;z-index:1000;margin-left:150px;margin-right:150px}
+.menu ul {margin:0;padding:0;list-style:none}
+.menu ul li{text-align:center;width:150px;float:left;font-weight:bold}
+.menu ul li a{font-family:Times New Roman;font-size:16px;font-weight:bold;display:block;color:#fff;padding:10px 20px;text-decoration:none;border-right:#fff 1px dashed}
+.menu ul li a:hover{background:#D8D8D8 ;color:#000}
+.menu ul ul{position:absolute; width:160px;display:none;z-index:1000}
+.menu ul ul li { display:block;background:#320E0F}
